@@ -1,0 +1,285 @@
+/*------------------------------------------------------------------------------------------------------------------------------------>*/
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------>*/
+/* box 1*/
+
+.nav{
+    background-color: #0F1111 ;
+height: 50px;
+display: flex;
+align-items:center;
+justify-content: space-evenly;
+
+
+}
+.nav-logo{
+
+height: 50px;
+width: 100px;
+}
+
+.logo{
+
+    background-image: url("img/amazon_logo\ \(1\).png");
+height: 50px;
+width: 100px;
+background-size: cover;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------>*/
+/*this is a border line */
+.border{
+
+    border: 1.3px solid transparent;
+
+}
+.border:hover{
+    border: 1.3px solid white;
+/*------------------------------------------------------------------------------------------------------------------------------------>*/
+}
+
+
+/* box2*/
+.deliverTo{
+    color: #cccccc;
+    font-size: 0.85rem;
+   align-items: center;
+   margin: 15px;
+
+}
+.addIcon{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+
+}
+.india{
+    color: #ffffff;
+    font-size: 1rem;
+align-items: center;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------>*/
+/* this is a total search bar section*/
+
+/**box3*/
+.nav-search{
+    display: flex;
+    background-color: blue;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+
+
+}
+.nav-search:hover{ /* this a search hower section where border is arround the search section*/
+
+
+
+border: 3px solid orange;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------>*/
+
+/* this is a All btn  bar section*/
+.search-select{
+    color: #0F1111;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    background: #E6E6E6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}/* this is a text of Search Amazon bar section*/
+.search-input{
+padding: 7px 10px 10px 10px;
+    width:100%;
+    font-size: 1.2rem;
+    border: none;
+    
+
+    
+
+
+}
+/* this is a search icon or logo section*/
+.search-icon{
+    color: rgb(236, 226, 226);
+    width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #0F1111;
+    background-color:#febd68 ;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+/* this is a home and signin section */
+/* this is Return & Order section */
+
+
+.nav-first{
+    color: #FFFFFF;
+    width: 70px;
+    height: 14px;
+    font-size: 12px;
+    text-align: center;
+    
+
+
+}
+.nav-second{
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* this is Cart section */
+
+.nav-cart{
+
+    color: #FFFFFF;
+    font-size: 20px;
+    
+    font-weight: 700;
+    display: flex;
+    
+    /*------------------------------------------------------------------------------------------------------------------------------------>*/
+
+
+/* this is down pannel section */
+}
+.panel{
+   height: 40px;
+   background-color:#222f3d; 
+  display: flex;
+  color: white;
+
+ 
+}
+.panel-Ops p {
+
+    display: inline;
+    margin: 20px;
+text-align: center;
+margin-top: 2%;
+}
+.panel-Ops{
+    text-align: center;
+}
+
+   /*------------------------------------------------------------------------------------------------------------------------------------>*/
+
+
+
+/* this is hero image sliding section section */
+.hero-section{
+
+    background-image: url("img/hero_image.jpg");
+    height: 440px;
+    
+    display:flex ;
+    justify-content: center;
+    background-size: cover;
+
+  align-items: flex-end;
+    
+}
+
+.hero-msg p{
+    color:black;
+  background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+   width: 1080px;
+    margin-bottom: 55px;
+
+    
+    
+}
+.hero-msg a{
+    color: #007185;
+}
+
+
+   /*------------------------------------------------------------------------------------------------------------------------------------>*/
+
+/*this section is all for boxes divided by same evenly*/
+
+/*all boxes bottom side shop section boxes container*/
+
+.shop-section{
+    height: 90px;
+    flex-wrap: wrap;;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex: wrap;
+}
+    .img-box2{
+        height: 350px;
+       margin-left: 20px; 
+        margin-right: 20px;
+        background-size:cover ;
+        
+    }
+
+.box{
+   /* border: 2px solid red;*/
+    height: 450px;
+    width: 23%;
+    background-color:white;
+    
+
+}
+
+.box h2{
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 20px;
+
+
+}
+.img-box1{
+    height: 350px;
+    background-size: cover;
+    
+   margin-left: 20px; 
+    margin-right: 20px;
+
+
+}
+
+
+   /*------------------------------------------------------------------------------------------------------------------------------------>*/
+
+/*Footer section*/
+.footpsnnrl{
+
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
